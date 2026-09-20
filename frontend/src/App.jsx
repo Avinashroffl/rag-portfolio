@@ -47,7 +47,7 @@ function App() {
       const topResults = await searchVectorStore(userMessage.content, vectorStore);
       const context = topResults.map(r => r.content).join('\n\n');
 
-      const workerUrl = 'https://avinashroffl.rajnash69.workers.dev/'; 
+      const workerUrl = 'https://rag-portfolio-worker.rajnash69.workers.dev/'; 
       const response = await fetch(workerUrl, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
