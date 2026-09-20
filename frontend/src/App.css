@@ -611,3 +611,89 @@ body, .app-container, .card-bg, .top-nav, input, .quick-btn, .message-bubble, .a
   background-color: var(--accent-color);
   color: white;
 }
+
+/* Social Nav Actions */
+.nav-actions {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-actions a {
+  color: var(--text-muted);
+  transition: color 0.2s, transform 0.2s;
+  display: flex;
+}
+
+.nav-actions a:hover {
+  color: var(--text-main);
+  transform: translateY(-2px);
+}
+
+/* Clear Chat Button */
+.clear-chat-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  width: 52px;
+  height: 52px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.clear-chat-btn:hover:not(:disabled) {
+  background: var(--card-bg);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.clear-chat-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Mobile Responsiveness Improvements */
+@media (max-width: 768px) {
+  .nav-subtitle {
+    display: none;
+  }
+  
+  .top-nav {
+    padding: 1rem 1.5rem;
+  }
+  
+  .nav-actions {
+    gap: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .chat-input-area {
+    padding: 1rem;
+  }
+  
+  .clear-chat-btn {
+    width: 48px;
+    height: 48px;
+    margin-right: 8px;
+  }
+  
+  .theme-toggle {
+    bottom: 1rem;
+    right: 1rem;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .arch-grid {
+    grid-template-columns: 1fr;
+  }
+}

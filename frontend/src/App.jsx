@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { searchVectorStore } from './utils/rag';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles, Moon, Sun, Copy, Check } from 'lucide-react';
+import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles, Moon, Sun, Copy, Check, Trash2, Linkedin, Github, Mail } from 'lucide-react';
 import './App.css';
 
 const AIMessage = ({ content, onSuggestionClick }) => {
@@ -85,6 +85,11 @@ function App() {
       .catch(() => console.error('Could not load vector store.'));
   }, []);
 
+  const handleClearChat = () => {
+    setMessages([]);
+    setQuery('');
+  };
+
   const handleSearch = async (e, forcedQuery = null) => {
     if (e) e.preventDefault();
     const q = forcedQuery || query;
@@ -126,6 +131,11 @@ function App() {
         <div className="nav-logo">
           <strong>Avinash R</strong>
           <span className="nav-subtitle">AI Portfolio · Ask me anything</span>
+        </div>
+        <div className="nav-actions">
+          <a href="https://www.linkedin.com/in/avinashrofficial/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><Linkedin size={20} /></a>
+          <a href="https://github.com/avinashroffl" target="_blank" rel="noopener noreferrer" title="GitHub"><Github size={20} /></a>
+          <a href="mailto:avinashroffl@gmail.com" title="Email"><Mail size={20} /></a>
         </div>
       </nav>
 
@@ -195,6 +205,9 @@ function App() {
           </div>
           
           <div className="chat-input-area">
+            <button className="clear-chat-btn" onClick={handleClearChat} title="Clear conversation" disabled={loading}>
+              <Trash2 size={18} />
+            </button>
             <form className="chat-input-form" onSubmit={(e) => handleSearch(e, null)}>
               <input
                 type="text"

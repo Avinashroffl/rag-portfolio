@@ -11,6 +11,13 @@ By shifting vector math to the user's browser (WebAssembly) and AI requests to a
 - **`frontend/`**: Contains a static React/Vite web application.
   - Features a clean light-themed UI with a powerful search-centric layout, Markdown rendering, and Client-Side vector search via `Transformers.js`.
 
+## ✨ Features
+- **Zero-Cost Architecture:** Client-side WebAssembly vectors + Cloudflare Edge Workers.
+- **High-Availability AI:** Primary Groq Llama 3 with seamless Google Gemini fallback.
+- **Smart Follow-ups:** AI automatically generates interactive, clickable follow-up questions.
+- **Beautiful UI:** Glassmorphism sticky navbar, one-click copy buttons, and persistent Dark Mode toggle.
+- **Automated CI/CD:** GitHub Actions automatically recalculate vectors on every Markdown commit.
+
 ---
 
 ## 📚 How to Update the Knowledge Base (RAG Data)
