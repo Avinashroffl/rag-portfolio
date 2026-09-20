@@ -13,6 +13,27 @@ By shifting vector math to the user's browser (WebAssembly) and AI requests to a
 
 ---
 
+## 📚 How to Update the Knowledge Base (RAG Data)
+
+Whenever you want to add new facts, resume details, or change how the AI answers questions about you:
+
+1. **Add Content:** Add or edit Markdown (`.md`) files inside the `backend/pipeline/data/` folder.
+2. **Regenerate Vectors:** Run the Python pipeline to convert your text into a new vector database.
+   ```bash
+   cd backend/pipeline
+   pip install -r requirements.txt
+   python generate_embeddings.py
+   ```
+3. **Deploy:** This script automatically injects the new `vector_store.json` directly into your frontend folder. To push this new knowledge live to the internet, simply commit and push your code to GitHub:
+   ```bash
+   git add .
+   git commit -m "Updated RAG knowledge base"
+   git push origin main
+   ```
+   *(GitHub Actions will automatically rebuild and deploy your site with the new data).*
+
+---
+
 ## 💻 Running Locally in Development
 
 You must run two separate terminals to test the full stack locally on your laptop.
@@ -40,7 +61,7 @@ npm run dev
 ```
 Open `http://localhost:5173/` in your browser to chat with your portfolio!
 
-*(Note: To update your portfolio knowledge base, drop markdown files into `backend/pipeline/data/` and run `python generate_embeddings.py` in the pipeline folder).*
+
 
 ---
 
