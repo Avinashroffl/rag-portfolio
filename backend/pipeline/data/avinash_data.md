@@ -46,6 +46,7 @@ Results-driven Software Engineer II with 3+ years of experience designing, devel
 ---
 
 ## 💻 Key Projects
+* **AI Portfolio & Zero-Cost Serverless RAG Pipeline:** Designed and deployed a highly scalable, fully automated RAG portfolio using React, Vite, and Cloudflare Workers. Engineered a zero-cost architecture utilizing client-side vector search (Transformers.js/WASM) and a High-Availability Fallback LLM proxy (Groq & Gemini). Built a 100% automated CI/CD pipeline with GitHub Actions to dynamically generate vector embeddings and deploy without manual intervention.
 * **Full-Stack E-Commerce & AI Platform:** Architected a full-stack web application with decoupled Customer and Admin portals using Java, Spring Boot, and React/Vue.js. Applied Layered Architecture, stateless JWT authentication, and transactional checkout workflows. Integrated Generative AI prompt workflows for catalog management, and containerized services using Docker for cloud deployment.
 * **Interactive Portfolio:** Dual-shell personal site featuring distinct desktop and mobile experiences built with HTML, CSS, and JavaScript.
 * **Madurai District Corona Counter:** Real-time COVID tracker featuring open APIs and live charts built with PHP and Chart.js under strict timeline constraints during lockdown.
