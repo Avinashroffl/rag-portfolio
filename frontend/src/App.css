@@ -697,3 +697,16 @@ body, .app-container, .card-bg, .top-nav, input, .quick-btn, .message-bubble, .a
     grid-template-columns: 1fr;
   }
 }
+
+/* Table Overflow Fix */
+.message-bubble table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.message-bubble table td, .message-bubble table th {
+  word-wrap: break-word;
+  white-space: normal;
+}
