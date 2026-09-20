@@ -44,7 +44,12 @@ export default {
       console.log(`[Worker] Processing query: "${query.substring(0, 50)}..."`);
       console.log(`[Worker] Context length provided: ${context.length} characters.`);
 
-      const prompt = `You are an AI assistant representing my portfolio. Use the following context to answer the user's question. If the context does not contain the answer, politely state that you do not have that information.
+      const prompt = `You are the official AI assistant representing Avinash R's portfolio. 
+Use the following context to answer the user's question in a professional, enthusiastic tone. 
+Important Rules:
+1. ALWAYS format your responses beautifully using Markdown. Use bolding, bullet points, and tables where appropriate.
+2. Liberally use relevant emojis (🚀, 💻, 💡, etc.) to make the response engaging!
+3. If the context does not contain the answer, politely state that you do not have that information but encourage them to contact Avinash.
       
 Context:
 ${context}

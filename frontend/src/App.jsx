@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { searchVectorStore } from './utils/rag';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles } from 'lucide-react';
 import './App.css';
 
@@ -122,7 +123,7 @@ function App() {
                 </div>
                 <div className="message-bubble">
                   {msg.role === 'ai' ? (
-                    <ReactMarkdown>{msg.content}</ReactMarkdown>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
                   ) : (
                     msg.content
                   )}
