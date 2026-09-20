@@ -673,16 +673,20 @@ body, .app-container, .card-bg, .top-nav, input, .quick-btn, .message-bubble, .a
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.8rem;
   }
   
   .chat-input-area {
-    padding: 1rem;
+    padding: 1rem 0;
   }
   
   .clear-chat-btn {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
     margin-right: 8px;
   }
   
@@ -695,6 +699,25 @@ body, .app-container, .card-bg, .top-nav, input, .quick-btn, .message-bubble, .a
   
   .arch-grid {
     grid-template-columns: 1fr;
+  }
+
+  .chat-view {
+    padding: 0 0.5rem;
+  }
+
+  .message-bubble {
+    padding: 0.75rem 1rem;
+    max-width: 90%;
+    font-size: 0.95rem;
+  }
+
+  .messages-container {
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+
+  .search-container {
+    padding: 1rem;
   }
 }
 
