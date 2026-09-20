@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { searchVectorStore } from './utils/rag';
 import ReactMarkdown from 'react-markdown';
-import { Send, User, Bot, ArrowRight } from 'lucide-react';
+import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles } from 'lucide-react';
 import './App.css';
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
   const [messages, setMessages] = useState([]);
   const [loading, setLoading] = useState(false);
   const [vectorStore, setVectorStore] = useState([]);
+  const [showArch, setShowArch] = useState(false);
   const messagesEndRef = useRef(null);
 
   const quickQuestions = [
@@ -108,7 +109,7 @@ function App() {
           </div>
           
           <div className="hero-footer-text">
-            Every answer is grounded in cited sources · Powered by Serverless RAG
+            Every answer is grounded in cited sources · <button onClick={() => setShowArch(true)} className="arch-link">Powered by Serverless RAG</button>
           </div>
         </div>
       ) : (
@@ -155,6 +156,38 @@ function App() {
                 <Send size={18} />
               </button>
             </form>
+          </div>
+        </div>
+      )}
+
+      {showArch && (
+        <div className="modal-overlay" onClick={() => setShowArch(false)}>
+          <div className="modal-content" onClick={e => e.stopPropagation()}>
+            <button className="modal-close" onClick={() => setShowArch(false)}>
+              <X size={24} />
+            </button>
+            
+            <h2>Zero-Cost Serverless RAG</h2>
+            <p>This portfolio isn't just a static page—it's a fully functional <strong>Retrieval-Augmented Generation (RAG)</strong> pipeline built to be highly scalable and 100% free to host.</p>
+            
+            <div className="arch-grid">
+              <div className="arch-card">
+                <h3><Cpu size={20} color="#f06a4a" /> Client-Side Vectors</h3>
+                <p>Instead of paying for a vector database like Pinecone, all of Avinash's resume and portfolio data is pre-embedded into a static JSON file. When you ask a question, WebAssembly runs in your browser to calculate the math locally!</p>
+              </div>
+              <div className="arch-card">
+                <h3><Server size={20} color="#8b5cf6" /> Cloudflare Edge Worker</h3>
+                <p>API keys can't be exposed in frontend code. So, the frontend talks to a Cloudflare Worker deployed to the edge. It acts as a secure, stateless proxy that forwards the retrieved context to the LLM.</p>
+              </div>
+              <div className="arch-card">
+                <h3><Zap size={20} color="#10b981" /> High-Availability Fallback</h3>
+                <p>The edge worker uses Groq's lightning-fast Llama 3 model as the primary LLM, but if it hits a rate limit, it instantly catches it and falls back to Google's Gemini—ensuring the chat never goes down.</p>
+              </div>
+              <div className="arch-card">
+                <h3><Sparkles size={20} color="#3b82f6" /> 100% Automated CI/CD</h3>
+                <p>Every time Avinash updates his markdown resume on GitHub, an Action automatically spins up Python, recalculates the AI vectors, builds the React app, and deploys it live—requiring zero manual work.</p>
+              </div>
+            </div>
           </div>
         </div>
       )}
