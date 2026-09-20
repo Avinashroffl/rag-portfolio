@@ -23,7 +23,7 @@ function App() {
   }, [messages, loading]);
 
   useEffect(() => {
-    fetch('/vector_store.json')
+    fetch(`${import.meta.env.BASE_URL}vector_store.json`)
       .then(res => res.json())
       .then(data => setVectorStore(data))
       .catch(() => setMessages(prev => [...prev, { role: 'ai', content: '⚠️ Could not load vector store.' }]));
