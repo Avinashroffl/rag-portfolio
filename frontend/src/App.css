@@ -495,3 +495,52 @@ body {
 .message-bubble tr:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.02);
 }
+
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --accent-color: #f06a4a;
+  --accent-hover: #e05838;
+  --card-bg: #1f2937;
+  --border-color: #374151;
+}
+
+body, .app-container, .card-bg, .top-nav, input, .quick-btn, .message-bubble, .arch-card {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+[data-theme="dark"] .top-nav {
+  background-color: rgba(17, 24, 39, 0.85);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+  z-index: 1000;
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+[data-theme="dark"] .message.ai .message-icon {
+  background-color: var(--card-bg);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}

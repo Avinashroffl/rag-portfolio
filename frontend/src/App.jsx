@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { searchVectorStore } from './utils/rag';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles } from 'lucide-react';
+import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles, Moon, Sun } from 'lucide-react';
 import './App.css';
 
 function App() {
@@ -11,6 +11,10 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [vectorStore, setVectorStore] = useState([]);
   const [showArch, setShowArch] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const saved = localStorage.getItem('theme');
+    return saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  });
   const messagesEndRef = useRef(null);
 
   const quickQuestions = [
@@ -27,6 +31,11 @@ function App() {
   useEffect(() => {
     scrollToBottom();
   }, [messages, loading]);
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', isDarkMode ? 'dark' : 'light');
+    localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+  }, [isDarkMode]);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}vector_store.json`)
@@ -192,6 +201,15 @@ function App() {
           </div>
         </div>
       )}
+
+      {/* Dark Mode Toggle */}
+      <button 
+        className="theme-toggle" 
+        onClick={() => setIsDarkMode(!isDarkMode)}
+        aria-label="Toggle dark mode"
+      >
+        {isDarkMode ? <Sun size={24} /> : <Moon size={24} />}
+      </button>
     </div>
   );
 }
