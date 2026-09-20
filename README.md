@@ -15,22 +15,18 @@ By shifting vector math to the user's browser (WebAssembly) and AI requests to a
 
 ## 📚 How to Update the Knowledge Base (RAG Data)
 
+This project features a **100% Automated CI/CD RAG Pipeline**. You never have to manually run Python or recalculate vectors yourself!
+
 Whenever you want to add new facts, resume details, or change how the AI answers questions about you:
 
-1. **Add Content:** Add or edit Markdown (`.md`) files inside the `backend/pipeline/data/` folder.
-2. **Regenerate Vectors:** Run the Python pipeline to convert your text into a new vector database.
-   ```bash
-   cd backend/pipeline
-   pip install -r requirements.txt
-   python generate_embeddings.py
-   ```
-3. **Deploy:** This script automatically injects the new `vector_store.json` directly into your frontend folder. To push this new knowledge live to the internet, simply commit and push your code to GitHub:
+1. **Add Content:** Add or edit Markdown (`.md`) files inside the `backend/pipeline/data/` folder directly on GitHub or on your local machine.
+2. **Push to GitHub:** Simply commit and push your changes to the `main` branch.
    ```bash
    git add .
-   git commit -m "Updated RAG knowledge base"
+   git commit -m "Added new skills to knowledge base"
    git push origin main
    ```
-   *(GitHub Actions will automatically rebuild and deploy your site with the new data).*
+3. **Automated Magic:** GitHub Actions will instantly detect the push, boot up a Python ML environment, download the ML models, recalculate the vector embeddings for your AI, build the React app, and deploy it to the internet—all completely in the background for free!
 
 ---
 
