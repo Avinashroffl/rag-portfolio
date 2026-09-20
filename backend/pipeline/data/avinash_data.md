@@ -58,3 +58,13 @@ Results-driven Software Engineer II with 3+ years of experience designing, devel
   *June 2019 – May 2023 · Madurai, Tamil Nadu*
   * **Best Outgoing Student (2019-2023):** Awarded for top academic excellence, technical leadership, and community service.
   * **Campus Leadership:** Department General Secretary and Placement Coordinator, mentoring juniors for technical placements.
+
+---
+## ?? AI Context & Repository Navigation
+*This section provides unified context for AI agents (like Claude, Copilot, Cursor) and developers to seamlessly navigate the codebase.*
+- **[Main Project Overview](/README.md)**: Entry point, feature list, and quick start.
+- **[Beginner Architecture Guide](/ARCHITECTURE.md)**: Visual Mermaid flowchart of the $0 Serverless RAG pipeline.
+- **[Technical Architecture Diagram](/serverless_rag_architecture.md)**: Deep dive into the Cloudflare/WASM stack.
+- **[Frontend Documentation](/frontend/README.md)**: React, Vite, and Client-Side Vector search setup.
+- **[Backend Documentation](/backend/README.md)**: Cloudflare Worker Edge Proxy and Python CI/CD pipeline.
+- **[Resume Knowledge Base](/backend/pipeline/data/avinash_data.md)**: The Markdown source-of-truth containing the portfolio data.

@@ -86,3 +86,13 @@ How does Avinash add new skills to his resume? Does he have to code new math vec
 He simply edits a standard Markdown text file on GitHub. The moment he hits "Save", a GitHub Action (a free robot) wakes up, runs a Python script to recalculate all the math, rebuilds the website, and deploys it to the internet automatically. 
 
 **Summary:** By making the user's browser do the heavy lifting and using smart, serverless edge networks, this site achieves enterprise-level AI capabilities for $0.
+
+---
+## ?? AI Context & Repository Navigation
+*This section provides unified context for AI agents (like Claude, Copilot, Cursor) and developers to seamlessly navigate the codebase.*
+- **[Main Project Overview](/README.md)**: Entry point, feature list, and quick start.
+- **[Beginner Architecture Guide](/ARCHITECTURE.md)**: Visual Mermaid flowchart of the $0 Serverless RAG pipeline.
+- **[Technical Architecture Diagram](/serverless_rag_architecture.md)**: Deep dive into the Cloudflare/WASM stack.
+- **[Frontend Documentation](/frontend/README.md)**: React, Vite, and Client-Side Vector search setup.
+- **[Backend Documentation](/backend/README.md)**: Cloudflare Worker Edge Proxy and Python CI/CD pipeline.
+- **[Resume Knowledge Base](/backend/pipeline/data/avinash_data.md)**: The Markdown source-of-truth containing the portfolio data.

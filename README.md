@@ -108,3 +108,13 @@ npx wrangler deploy
 Everything for the frontend is handled automatically by the `.github/workflows/deploy.yml` pipeline. Just push to the `main` branch, and your site will be built and hosted on **GitHub Pages**. 
 
 Traditional RAG pipelines require a running server (EC2 instance) and a paid vector database (Pinecone). This setup relies entirely on **static files, browser compute, and edge proxies**, making it immune to traditional server crashes and completely free.
+
+---
+## ?? AI Context & Repository Navigation
+*This section provides unified context for AI agents (like Claude, Copilot, Cursor) and developers to seamlessly navigate the codebase.*
+- **[Main Project Overview](/README.md)**: Entry point, feature list, and quick start.
+- **[Beginner Architecture Guide](/ARCHITECTURE.md)**: Visual Mermaid flowchart of the $0 Serverless RAG pipeline.
+- **[Technical Architecture Diagram](/serverless_rag_architecture.md)**: Deep dive into the Cloudflare/WASM stack.
+- **[Frontend Documentation](/frontend/README.md)**: React, Vite, and Client-Side Vector search setup.
+- **[Backend Documentation](/backend/README.md)**: Cloudflare Worker Edge Proxy and Python CI/CD pipeline.
+- **[Resume Knowledge Base](/backend/pipeline/data/avinash_data.md)**: The Markdown source-of-truth containing the portfolio data.
