@@ -1,6 +1,6 @@
 [
   {
-    "id": "3544be7e-d986-4d2a-b857-953a20c1b51d",
+    "id": "5586ca3e-ae5a-45cf-b6dd-4b187d18c2a7",
     "title": "avinash_data.md",
     "content": "# Avinash R \u2014 Software Engineer II (Full Stack & GenAI)",
     "embedding": [
@@ -391,7 +391,7 @@
     ]
   },
   {
-    "id": "f397ee13-5294-4db8-853b-f815b4eff04b",
+    "id": "56914464-40fa-44ab-bc01-13e75ad2e0db",
     "title": "avinash_data.md",
     "content": "[![Email](https://img.shields.io/badge/Email-avinashroffl%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:avinashroffl@gmail.com)\n[![Phone](https://img.shields.io/badge/Phone-7094577720-green?style=flat-square)](tel:7094577720)\n[![GitHub](https://img.shields.io/badge/GitHub-avinashroffl-black?style=flat-square&logo=github)](https://github.com/avinashroffl)\n[![LinkedIn](https://img.shields.io/badge/LinkedIn-avinashrofficial-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/avinashrofficial/)",
     "embedding": [
@@ -782,7 +782,7 @@
     ]
   },
   {
-    "id": "26ea5a4b-ed95-4aa9-8b65-bf181a598d75",
+    "id": "0582d58e-2435-4463-8930-fa9caed9a0e8",
     "title": "avinash_data.md",
     "content": "**Location:** Chennai / Greater Madurai, Tamil Nadu, India  \n**Role:** Member Technical Staff @ Zoho | Software Engineer II",
     "embedding": [
@@ -1173,7 +1173,7 @@
     ]
   },
   {
-    "id": "01723927-60ec-462e-8326-ccde4714f2c1",
+    "id": "35f2c9e5-3719-4c14-84fd-17f744098e12",
     "title": "avinash_data.md",
     "content": "---",
     "embedding": [
@@ -1564,7 +1564,7 @@
     ]
   },
   {
-    "id": "0bab0165-a5dc-49c6-bc80-2a612c58354e",
+    "id": "1531b033-42b2-439d-9d94-1cfe22dde145",
     "title": "avinash_data.md",
     "content": "## \ud83d\ude80 Summary\nResults-driven Software Engineer II with 3+ years of experience designing, developing, and operating high-performance full-stack systems, Microservices, and RESTful APIs for enterprise SaaS platforms. Proven track record in applying Generative AI & Prompt Engineering (LLMs, AI Copilots) to accelerate delivery. Demonstrated expertise in optimizing database execution plans, automating CI/CD pipelines, and providing mission-critical L3 production engineering.",
     "embedding": [
@@ -1955,7 +1955,7 @@
     ]
   },
   {
-    "id": "104dc19c-9760-4a19-98cc-5bf86de80167",
+    "id": "eb932a43-9e73-4100-b6ad-c56fa0084eb9",
     "title": "avinash_data.md",
     "content": "---",
     "embedding": [
@@ -2346,7 +2346,7 @@
     ]
   },
   {
-    "id": "de8f1f3b-2f41-4c40-8c6d-60a30cb42db1",
+    "id": "5827c51b-bfc5-4d79-a1d9-0030b6086a3f",
     "title": "avinash_data.md",
     "content": "## \ud83d\udcbc Professional Experience",
     "embedding": [
@@ -2737,7 +2737,7 @@
     ]
   },
   {
-    "id": "bbbb2d9f-2c9a-4642-abe7-dd568eab56f1",
+    "id": "d3e4958e-24e7-4fe2-850c-16dea70cd266",
     "title": "avinash_data.md",
     "content": "### **Zoho Corporation** \u2014 *Member Technical Staff (Full Stack Developer)*\n*June 2023 \u2013 Present \u00b7 Madurai/Chennai, Tamil Nadu*\n* Architected policy-driven RESTful APIs for Version Retention Settings across 8+ global data centers, leveraging multithreading to automate asynchronous deletions and reclaim **100+ TB of storage daily**.\n* Engineered the Large File View module with optimized database indexes and execution plans across MySQL, cutting API response latency by **95%** under high-concurrency loads.\n* Automated end-to-end SSL certificate provisioning and domain verification workflows via Certman and asynchronous polling daemons, reducing custom domain turnaround from **3 days to <4 hours** with zero manual intervention.\n* Revamped administrative features and storage telemetry systems using responsive UI components and backend aggregation APIs for the Admin Dashboard, integrating automated threshold alerting (80%+ capacity).\n* Applied Prompt Engineering with AI coding assistants (Cursor, Copilot) for test scaffolding and refactoring, while authoring robust unit test suites with JUnit and automating deployments via CI/CD pipelines.\n* Delivered mission-critical L3 production support, diagnosing and resolving **1,000+ tickets** via deep log analysis and Root Cause Analysis (RCA).\n* Honored with the Quick Learner Award at Zoho WorkDrive for technical agility.",
     "embedding": [
@@ -3128,7 +3128,7 @@
     ]
   },
   {
-    "id": "5be14d9b-a235-4b18-b0da-8e0609f312d5",
+    "id": "5bf891a5-619a-4d0c-adf2-853af4e951b3",
     "title": "avinash_data.md",
     "content": "### **Zoho Corporation** \u2014 *Project Trainee*\n*January 2023 \u2013 May 2023 \u00b7 Madurai, Tamil Nadu*\n* Developed a high-throughput Bulk Version Deletion and Selective Retention feature, applying OOP principles and batch processing to protect critical milestone snapshots from accidental purge.\n* Engineered a resilient \"Restore Deleted Versions\" soft-delete recovery engine. \n* Tuned SQL database execution plans and documented REST endpoints to ensure robust system durability.",
     "embedding": [
@@ -3519,7 +3519,7 @@
     ]
   },
   {
-    "id": "405dbab6-1971-41fd-9067-389b4544db5c",
+    "id": "d8235572-1e85-4cb6-89b6-691d13ee3dbe",
     "title": "avinash_data.md",
     "content": "---",
     "embedding": [
@@ -3910,7 +3910,7 @@
     ]
   },
   {
-    "id": "58c6b62f-3284-47ea-b1f8-1e04023b5504",
+    "id": "06139dad-0175-45a5-b3f6-c13b73475dcb",
     "title": "avinash_data.md",
     "content": "## \ud83d\udee0\ufe0f Technical Skills\n* **Core Languages:** Java (Core Java, Multithreading, Concurrency, OOP), Spring Boot, Spring Data JPA, Microservices Architecture, RESTful APIs, Servlets, JDBC, Protocol Buffers, Ember JS, Python.\n* **Frontend & UI Engineering:** React, Vue.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Responsive Web Design, JSON, REST API Integration.\n* **Generative AI & Modern Tools:** GenAI Platforms (Anthropic Claude, OpenAI, Gemini), Prompt Engineering, RAG Architectures, AI Copilots (Cursor, GitHub Copilot).\n* **Databases, Caching & Optimization:** MySQL, Oracle Database, Redis (Distributed Caching, Cache-Aside), Query Tuning.\n* **Cloud, DevOps & Architecture:** Google Cloud Platform (GCP), Docker (Containerization), Kubernetes, CI/CD Pipelines (Jenkins, Git), System Design (HLD/LLD), SDLC.\n* **Testing, Quality & Tools:** JUnit, Maven, Postman, IntelliJ IDEA, Visual Studio Code, Linux, L3 Support (RCA, Heap/Thread Dumps).",
     "embedding": [
@@ -4301,7 +4301,7 @@
     ]
   },
   {
-    "id": "700633e6-a3b2-47e2-b77b-cc206e35139b",
+    "id": "efff3722-f838-4375-b6ce-c1a57f3fd790",
     "title": "avinash_data.md",
     "content": "---",
     "embedding": [
@@ -4692,7 +4692,7 @@
     ]
   },
   {
-    "id": "337fd4db-33c9-40cc-bda4-a8d7cdc2e658",
+    "id": "5c722d80-e038-438a-a261-72e9428254be",
     "title": "avinash_data.md",
     "content": "## \ud83d\udcbb Key Projects\n* **Full-Stack E-Commerce & AI Platform:** Architected a full-stack web application with decoupled Customer and Admin portals using Java, Spring Boot, and React/Vue.js. Applied Layered Architecture, stateless JWT authentication, and transactional checkout workflows. Integrated Generative AI prompt workflows for catalog management, and containerized services using Docker for cloud deployment.\n* **Interactive Portfolio:** Dual-shell personal site featuring distinct desktop and mobile experiences built with HTML, CSS, and JavaScript.\n* **Madurai District Corona Counter:** Real-time COVID tracker featuring open APIs and live charts built with PHP and Chart.js under strict timeline constraints during lockdown.",
     "embedding": [
@@ -5083,7 +5083,7 @@
     ]
   },
   {
-    "id": "ae64bfc8-776b-421d-9fe9-8b3f9f2ca55b",
+    "id": "854386c0-4086-4121-8022-7f7a2b1c60ac",
     "title": "avinash_data.md",
     "content": "---",
     "embedding": [
@@ -5474,7 +5474,7 @@
     ]
   },
   {
-    "id": "85072b00-3d04-4166-afdd-e13656464dd2",
+    "id": "6f878cfc-63f3-4af7-a82e-54b613554078",
     "title": "avinash_data.md",
     "content": "## \ud83c\udf93 Education & Achievements\n* **Thiagarajar College of Engineering** \u2014 *Bachelor of Technology (Information Technology)* | **CGPA: 9.49** \n  *June 2019 \u2013 May 2023 \u00b7 Madurai, Tamil Nadu*\n  * **Best Outgoing Student (2019-2023):** Awarded for top academic excellence, technical leadership, and community service.\n  * **Campus Leadership:** Department General Secretary and Placement Coordinator, mentoring juniors for technical placements.",
     "embedding": [
