@@ -1,7 +1,5 @@
 # Avinash R — Software Engineer II (Full Stack & GenAI)
 
-*Profile updated incorporating data from Avinash_Resume_FS.pdf*
-
 [![Email](https://img.shields.io/badge/Email-avinashroffl%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:avinashroffl@gmail.com)
 [![Phone](https://img.shields.io/badge/Phone-7094577720-green?style=flat-square)](tel:7094577720)
 [![GitHub](https://img.shields.io/badge/GitHub-avinashroffl-black?style=flat-square&logo=github)](https://github.com/avinashroffl)
@@ -21,23 +19,18 @@ Results-driven Software Engineer II with 3+ years of experience designing, devel
 
 ### **Zoho Corporation** — *Member Technical Staff (Full Stack Developer)*
 *June 2023 – Present · Madurai/Chennai, Tamil Nadu*
-* Architected policy-driven RESTful APIs for Version Retention Settings across 8+ global data centers. 
-* Leveraged multithreading to automate asynchronous deletions and reclaim 100+ TB of storage daily.
-* Engineered the Large File View module with optimized database indexes and execution plans across MySQL. 
-* Cut API response latency by 95% under high-concurrency loads.
-* Automated end-to-end SSL certificate provisioning and domain verification workflows via Certman and asynchronous polling daemons. 
-* Reduced custom domain turnaround from 3 days to <4 hours with zero manual intervention.
-* Revamped administrative features and storage telemetry systems using responsive UI components and backend aggregation APIs for the Admin Dashboard. 
-* Integrated automated threshold alerting (80%+ capacity).
-* Applied Prompt Engineering with AI coding assistants (Cursor, Copilot) for test scaffolding and refactoring. 
-* Authored robust unit test suites with JUnit and automated deployments via CI/CD pipelines.
-* Delivered mission-critical L3 production support, diagnosing and resolving 1,000+ tickets via deep log analysis and Root Cause Analysis (RCA). 
+* Architected policy-driven RESTful APIs for Version Retention Settings across 8+ global data centers, leveraging multithreading to automate asynchronous deletions and reclaim **100+ TB of storage daily**.
+* Engineered the Large File View module with optimized database indexes and execution plans across MySQL, cutting API response latency by **95%** under high-concurrency loads.
+* Automated end-to-end SSL certificate provisioning and domain verification workflows via Certman and asynchronous polling daemons, reducing custom domain turnaround from **3 days to <4 hours** with zero manual intervention.
+* Revamped administrative features and storage telemetry systems using responsive UI components and backend aggregation APIs for the Admin Dashboard, integrating automated threshold alerting (80%+ capacity).
+* Applied Prompt Engineering with AI coding assistants (Cursor, Copilot) for test scaffolding and refactoring, while authoring robust unit test suites with JUnit and automating deployments via CI/CD pipelines.
+* Delivered mission-critical L3 production support, diagnosing and resolving **1,000+ tickets** via deep log analysis and Root Cause Analysis (RCA).
+* Honored with the Quick Learner Award at Zoho WorkDrive for technical agility.
 
 ### **Zoho Corporation** — *Project Trainee*
 *January 2023 – May 2023 · Madurai, Tamil Nadu*
-* Developed high-throughput Bulk Version Deletion and Selective Retention feature. 
-* Applied OOP principles and batch processing to protect critical milestone snapshots from accidental purge.
-* Engineered a resilient Restore Deleted Versions soft-delete recovery engine. 
+* Developed a high-throughput Bulk Version Deletion and Selective Retention feature, applying OOP principles and batch processing to protect critical milestone snapshots from accidental purge.
+* Engineered a resilient "Restore Deleted Versions" soft-delete recovery engine. 
 * Tuned SQL database execution plans and documented REST endpoints to ensure robust system durability.
 
 ---
