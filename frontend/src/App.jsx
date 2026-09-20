@@ -2,8 +2,49 @@ import { useState, useEffect, useRef } from 'react';
 import { searchVectorStore } from './utils/rag';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles, Moon, Sun } from 'lucide-react';
+import { Send, User, Bot, ArrowRight, X, Cpu, Server, Zap, Sparkles, Moon, Sun, Copy, Check } from 'lucide-react';
 import './App.css';
+
+const AIMessage = ({ content, onSuggestionClick }) => {
+  const [copied, setCopied] = useState(false);
+
+  let mainContent = content;
+  let suggestions = [];
+  
+  const suggestionsMatch = content.match(/\[SUGGESTIONS\]([\s\S]*?)\[\/SUGGESTIONS\]/);
+  if (suggestionsMatch) {
+    mainContent = content.replace(suggestionsMatch[0], '').trim();
+    const rawSuggestions = suggestionsMatch[1];
+    suggestions = rawSuggestions.split('|').map(s => s.trim()).filter(s => s.length > 0);
+  }
+
+  const handleCopy = () => {
+    navigator.clipboard.writeText(mainContent);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  return (
+    <div className="message-content-wrapper">
+      <div className="message-actions">
+        <button className="copy-btn" onClick={handleCopy} title="Copy response">
+          {copied ? <Check size={14} color="#10b981" /> : <Copy size={14} />}
+        </button>
+      </div>
+      <ReactMarkdown remarkPlugins={[remarkGfm]}>{mainContent}</ReactMarkdown>
+      
+      {suggestions.length > 0 && (
+        <div className="ai-suggestions-container">
+          {suggestions.map((s, idx) => (
+            <button key={idx} className="ai-suggestion-pill" onClick={() => onSuggestionClick(s)}>
+              {s}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+};
 
 function App() {
   const [query, setQuery] = useState('');
@@ -132,7 +173,7 @@ function App() {
                 </div>
                 <div className="message-bubble">
                   {msg.role === 'ai' ? (
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>{msg.content}</ReactMarkdown>
+                    <AIMessage content={msg.content} onSuggestionClick={(q) => handleSearch(null, q)} />
                   ) : (
                     msg.content
                   )}

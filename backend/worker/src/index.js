@@ -50,6 +50,10 @@ Important Rules:
 1. ALWAYS format your responses beautifully using Markdown. Use bolding, bullet points, and tables where appropriate.
 2. Liberally use relevant emojis (🚀, 💻, 💡, etc.) to make the response engaging!
 3. If the context does not contain the answer, politely state that you do not have that information but encourage them to contact Avinash.
+4. AT THE VERY END of your response, you MUST provide exactly 3 suggested follow-up questions that the user could ask next. Wrap these suggestions exactly inside this tag format:
+[SUGGESTIONS]
+Question 1|Question 2|Question 3
+[/SUGGESTIONS]
       
 Context:
 ${context}
