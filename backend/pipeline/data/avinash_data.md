@@ -1,52 +1,66 @@
-# Avinash R — Full Stack Developer
+# Avinash R — Software Engineer II (Full Stack & GenAI)
+
+*Profile updated incorporating data from Avinash_Resume_FS.pdf*
 
 [![Email](https://img.shields.io/badge/Email-avinashroffl%40gmail.com-blue?style=flat-square&logo=gmail)](mailto:avinashroffl@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-7094577720-green?style=flat-square)](tel:7094577720)
 [![GitHub](https://img.shields.io/badge/GitHub-avinashroffl-black?style=flat-square&logo=github)](https://github.com/avinashroffl)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-avinashrofficial-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/avinashrofficial/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-success?style=flat-square)](https://avinashroffl.github.io/professional/)
 
-**Location:** Chennai / Greater Madurai, India  
-**Role:** Member Technical Staff @ Zoho | Full Stack Developer (Java, Spring Boot, MySQL, Redis, Kafka)
+**Location:** Chennai / Greater Madurai, Tamil Nadu, India  
+**Role:** Member Technical Staff @ Zoho | Software Engineer II
 
 ---
 
 ## 🚀 Summary
-Member Technical Staff at Zoho designing and owning production software systems for enterprise SaaS. Proven track record in shipping scalable solutions with measurable impact—reclaiming **100+ TB of storage daily**, cutting critical API latency by **95%**, and ensuring reliability for global high-traffic file workflows. Best Outgoing Student (TCE IT ’23).
+Results-driven Software Engineer II with 3+ years of experience designing, developing, and operating high-performance full-stack systems, Microservices, and RESTful APIs for enterprise SaaS platforms. Proven track record in applying Generative AI & Prompt Engineering (LLMs, AI Copilots) to accelerate delivery. Demonstrated expertise in optimizing database execution plans, automating CI/CD pipelines, and providing mission-critical L3 production engineering. 
 
 ---
 
 ## 💼 Professional Experience
 
-### **Zoho Corporation** — *Member Technical Staff*
-*Jun 2023 – Present · Madurai, India*
-* Built **version-retention settings** across 8+ global data centers, reclaiming **100+ TB of storage daily** for high-volume sync customers.
-* Owned large-file management APIs, cutting critical response times by **95%**.
-* Automated SSL purchase and custom-domain verification, reducing setup time from **3 days to under 4 hours**.
-* Closed **1,000+ production issues** spanning file uploads, downloads, and custom domains while mentoring junior engineers.
+### **Zoho Corporation** — *Member Technical Staff (Full Stack Developer)*
+*June 2023 – Present · Madurai/Chennai, Tamil Nadu*
+* Architected policy-driven RESTful APIs for Version Retention Settings across 8+ global data centers. 
+* Leveraged multithreading to automate asynchronous deletions and reclaim 100+ TB of storage daily.
+* Engineered the Large File View module with optimized database indexes and execution plans across MySQL. 
+* Cut API response latency by 95% under high-concurrency loads.
+* Automated end-to-end SSL certificate provisioning and domain verification workflows via Certman and asynchronous polling daemons. 
+* Reduced custom domain turnaround from 3 days to <4 hours with zero manual intervention.
+* Revamped administrative features and storage telemetry systems using responsive UI components and backend aggregation APIs for the Admin Dashboard. 
+* Integrated automated threshold alerting (80%+ capacity).
+* Applied Prompt Engineering with AI coding assistants (Cursor, Copilot) for test scaffolding and refactoring. 
+* Authored robust unit test suites with JUnit and automated deployments via CI/CD pipelines.
+* Delivered mission-critical L3 production support, diagnosing and resolving 1,000+ tickets via deep log analysis and Root Cause Analysis (RCA). 
 
-### **Zoho Corporation** — *Project Trainee (Full Stack)*
-*Jan 2023 – May 2023 · Madurai, India*
-* Delivered bulk version deletion with selective milestone retention and one-click restore capabilities.
-* Contributed to core software development including SQL query tuning, debugging, and robust API documentation.
+### **Zoho Corporation** — *Project Trainee*
+*January 2023 – May 2023 · Madurai, Tamil Nadu*
+* Developed high-throughput Bulk Version Deletion and Selective Retention feature. 
+* Applied OOP principles and batch processing to protect critical milestone snapshots from accidental purge.
+* Engineered a resilient Restore Deleted Versions soft-delete recovery engine. 
+* Tuned SQL database execution plans and documented REST endpoints to ensure robust system durability.
 
 ---
 
 ## 🛠️ Technical Skills
-* **Languages & Core:** Java, Spring Boot, Spring Data JPA, REST APIs, SQL
-* **Databases & Caching:** MySQL, Redis
-* **Streaming & DevOps:** Apache Kafka, Docker, Maven, GCP, Git, JUnit, Postman, Swagger
-* **Architecture:** System Design (HLD/LVD), Object-Oriented Programming, Layered Architecture, Production Debugging
+* **Core Languages:** Java (Core Java, Multithreading, Concurrency, OOP), Spring Boot, Spring Data JPA, Microservices Architecture, RESTful APIs, Servlets, JDBC, Protocol Buffers, Ember JS, Python.
+* **Frontend & UI Engineering:** React, Vue.js, JavaScript (ES6+), HTML5, CSS3, Bootstrap, Responsive Web Design, JSON, REST API Integration.
+* **Generative AI & Modern Tools:** GenAI Platforms (Anthropic Claude, OpenAI, Gemini), Prompt Engineering, RAG Architectures, AI Copilots (Cursor, GitHub Copilot).
+* **Databases, Caching & Optimization:** MySQL, Oracle Database, Redis (Distributed Caching, Cache-Aside), Query Tuning.
+* **Cloud, DevOps & Architecture:** Google Cloud Platform (GCP), Docker (Containerization), Kubernetes, CI/CD Pipelines (Jenkins, Git), System Design (HLD/LLD), SDLC.
+* **Testing, Quality & Tools:** JUnit, Maven, Postman, IntelliJ IDEA, Visual Studio Code, Linux, L3 Support (RCA, Heap/Thread Dumps).
 
 ---
 
 ## 💻 Key Projects
-* **Full-Stack E-Commerce Platform** *(Java, Spring Boot, Vue.js, Docker)*: Comprehensive admin and customer portals featuring authentication, cart management, order checkout, inventory tracking, and containerized cloud deployment.
-* **Interactive Portfolio** *(HTML, CSS, JavaScript)*: Dual-shell personal site featuring distinct desktop and mobile experiences built with vanilla web technologies.
-* **Madurai District Corona Counter** *(HTML, CSS, JS, Chart.js, PHP)*: Real-time pandemic tracker featuring open APIs and live charts built under strict timeline constraints during lockdown.
+* **Full-Stack E-Commerce & AI Platform:** Architected a full-stack web application with decoupled Customer and Admin portals using Java, Spring Boot, and React/Vue.js. Applied Layered Architecture, stateless JWT authentication, and transactional checkout workflows. Integrated Generative AI prompt workflows for catalog management, and containerized services using Docker for cloud deployment.
+* **Interactive Portfolio:** Dual-shell personal site featuring distinct desktop and mobile experiences built with HTML, CSS, and JavaScript.
+* **Madurai District Corona Counter:** Real-time COVID tracker featuring open APIs and live charts built with PHP and Chart.js under strict timeline constraints during lockdown.
 
 ---
 
 ## 🎓 Education & Achievements
-* **Thiagarajar College of Engineering (TCE)** — B.Tech in Information Technology *(2019 – 2023)*
-  * **Best Outgoing Student (2019–2023)**
-  * Department General Secretary & Placement Coordinator (mentored juniors and managed tech events).
+* **Thiagarajar College of Engineering** — *Bachelor of Technology (Information Technology)* | **CGPA: 9.49** 
+  *June 2019 – May 2023 · Madurai, Tamil Nadu*
+  * **Best Outgoing Student (2019-2023):** Awarded for top academic excellence, technical leadership, and community service.
+  * **Campus Leadership:** Department General Secretary and Placement Coordinator, mentoring juniors for technical placements.
